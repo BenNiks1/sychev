@@ -1,0 +1,62 @@
+{
+  "resume": [
+    {
+      "name": "Resume",
+      "popup": [
+        {
+          "text": "Microsoft Word",
+          "link":
+            "https://github.com/BenNiks1/portfolio/blob/master/src/resume/SychevBogdan.doc",
+          "download": true,
+          "extension": ".doc"
+        },
+        {
+          "text": "Adobe Reader",
+          "link":
+            "https://github.com/BenNiks1/portfolio/blob/master/src/resume/SychevBogdan.pdf",
+          "download": true,
+          "extension": ".pdf"
+        }
+      ]
+    }
+  ],
+  "portfolio": [
+      {
+        "name": "Portfolio",
+        "popup": [
+          {
+            "text": "Helion",
+            "link": "https://benniks1.github.io/Helion/",
+            "srcLink": "https://github.com/BenNiks1/Helion",
+            "download": false,
+            "target": "_blank",
+            "extension": "GitHub"
+          },
+          {
+            "text": "img_api_test",
+            "link": "https://benniks1.github.io/img_api_test/",
+            "srcLink": "https://github.com/BenNiks1/img_api_test",
+            "download": false,
+            "target": "_blank",
+            "extension": "GitHub"
+          },
+          {
+            "text": "Relvise",
+            "link": "https://benniks1.github.io/Relvise/",
+            "srcLink": "https://github.com/BenNiks1/Relvise",
+            "download": false,
+            "target": "_blank",
+            "extension": "GitHub"
+          },
+          {
+            "text": "Figmaland",
+            "link": "https://benniks1.github.io/Figmaland_purple/",
+            "srcLink": "https://github.com/BenNiks1/Figmaland_purple",
+            "download": false,
+            "target": "_blank",
+            "extension": "GitHub"
+          }
+        ]
+    }
+  ]
+}
