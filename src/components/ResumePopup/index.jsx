@@ -43,13 +43,11 @@ const ResumePopup = ({ subnav }) => {
                   <a
                     href={item.link}
                     download={item.download}
-                    target={item.target}
+                    
                   >
                     {item.text}
                   </a>
-                  <a href={item.srcLink} target={item.target}>
-                    <p>{item.extension}</p>
-                  </a>
+                  <p>{item.extension}</p>
                 </li>
               ))}
             </ul>

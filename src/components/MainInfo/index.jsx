@@ -8,7 +8,7 @@ const MainInfo = ({ listItems }) => {
   const [portfolioPopup, setPortfolioPopup] = React.useState([]);
 
   React.useEffect(() => {
-    axios.get("/db.json").then((res) => {
+    axios.get("./db.json").then((res) => {
       setResume(res.data.resume);
       setPortfolioPopup(res.data.portfolio)
     });

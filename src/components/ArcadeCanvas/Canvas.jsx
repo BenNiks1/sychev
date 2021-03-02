@@ -140,11 +140,7 @@ const Canvas = () => {
   React.useEffect(() => {
     canvas();
   }, []);
-  return (
-    <React.Fragment>
-      <canvas className="canvas" ref={canvasRef}></canvas>
-    </React.Fragment>
-  );
+  return <canvas className="canvas" ref={canvasRef}></canvas>;
 };
 
 export default Canvas;
