@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import ResumePopup from "../ResumePopup";
 import PortfolioPopup from "../PortfolioPopup";
+import ArcadeCanvas from "../ArcadeCanvas";
 
 const MainInfo = ({ listItems }) => {
   const [resumePopup, setResume] = React.useState([]);
@@ -15,7 +16,7 @@ const MainInfo = ({ listItems }) => {
   }, []);
   return (
     <div className="main">
-      <header className="header">
+      <header className="header container">
         <h1 className="header__title">Bogdan Sychev</h1>
         <ul className="header__list">
           {listItems.map((listItem) => (
@@ -34,9 +35,12 @@ const MainInfo = ({ listItems }) => {
           <PortfolioPopup subnav={portfolioPopup} />
         </ul>
       </header>
-      <div className="intro">
-        <p className="intro__text">My name is Bogdan Sychev</p>
-        <p className="intro__description">I am junior frontend developer</p>
+      <div className="intro container">
+        <div className="intro__inner">
+          <p className="intro__text">My name is Bogdan Sychev</p>
+          <p className="intro__description">I am junior frontend developer</p>
+        </div>
+        <ArcadeCanvas />
       </div>
     </div>
   );

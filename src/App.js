@@ -1,5 +1,5 @@
 import React from "react";
-import ArcadeCanvas from "./components/ArcadeCanvas";
+
 import MainInfo from "./components/MainInfo";
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           },
         ]}
       />
-      <ArcadeCanvas />
+  
     </div>
   );
 }

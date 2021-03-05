@@ -20,28 +20,33 @@ body {
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
 
   font-family: "ArcadeClassic";
+  overflow: hidden;
 }
 
 .rotated {
   transform: rotate(180deg);
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   padding-top: 50px;
   color: #fff;
   &__title {
-    font-size: 100px;
+    font-size: 80px;
     letter-spacing: 5px;
   }
   &__list {
     display: flex;
     word-spacing: 5px;
     .list-item {
-      margin-right: 50px;
+      margin-right: 20px;
       padding: 7px;
 
       &:hover {
@@ -55,7 +60,7 @@ body {
         align-items: center;
         position: relative;
 
-        font-size: 30px;
+        font-size: 25px;
         text-decoration: none;
         color: #fff;
         cursor: pointer;
@@ -75,7 +80,7 @@ body {
       padding: 7px;
       min-width: 270px;
 
-      font-size: 25px;
+      font-size: 23px;
       &:hover {
         background: #000;
       }
@@ -91,27 +96,175 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 15vh;
 
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
+  word-spacing: 5px;
   &__text {
     margin-bottom: 20px;
   }
 }
 
-.tv-canvas{
-  overflow: hidden;
-  margin: 0 auto;
+.tv-canvas {
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   left: 50%;
   transform: translate(-50%);
-  .canvas{
+  &__img {
+    // max-width: 500px;
+  }
+  .canvas {
     position: absolute;
     z-index: -1;
     background: rgb(80, 80, 80);
     top: 56px;
     left: 35px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .header {
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 10px;
+    }
+  }
+  .intro {
+    display: grid;
+    grid-template-columns: repeat(2, 700px);
+    justify-self: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    &__inner {
+      align-self: center;
+      grid-area: 1/2/1/2;
+    }
+  }
+  .tv-canvas {
+    position: static;
+    grid-area: 1/1/1/1;
+    transform: translate(0);
+    .canvas {
+      left: 50px;
+    }
+  }
+}
+
+@media screen and (max-height: 870px) {
+  
+}
+
+@media screen and (max-width: 1420px) {
+  .header {
+    &__title {
+      font-size: 50px;
+    }
+  }
+  .intro {
+    grid-template-columns: repeat(2, 500px);
+    font-size: 40px;
+  }
+  .tv-canvas {
+    &__img {
+      max-width: 550px;
+      width: 100%;
+    }
+    .canvas {
+      width: 350px;
+      height: 271px;
+      top: 45px;
+      left: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    overflow: auto;
+  }
+  .header {
+    flex-direction: column;
+
+    &__title {
+      margin-bottom: 20px;
+    }
+    &__list {
+      justify-items: center;
+    }
+    .subnav__list {
+      background: rgb(77, 77, 77);
+      left: -6px;
+    }
+  }
+
+  .intro {
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(2, 290px);
+    margin-top: 0;
+    z-index: -1;
+    &__inner {
+      grid-area: 1/1/1/1;
+    }
+  }
+  .tv-canvas {
+    grid-area: 2/1/2/1;
+    .canvas {
+      width: 283px;
+      height: 220px;
+      top: 35px;
+      left: 22px;
+    }
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .header {
+    &__list {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+    }
+    .subnav__list {
+      z-index: 10;
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .header {
+    &__title {
+      font-size: 30px;
+    }
+    .list-item {
+      &__link {
+        font-size: 25px;
+      }
+    }
+    .subnav__list {
+      left: -50px;
+      &-item {
+        font-size: 20px;
+        min-width: 200px;
+      }
+    }
+  }
+  .intro {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(2, 200px);
+    justify-items: center;
+    &__inner {
+      font-size: 25px;
+    }
+    .tv-canvas {
+      max-width: 300px;
+      .canvas {
+        width: 214px;
+        height: 165px;
+        top: 25px;
+        left: 16px;
+      }
+    }
   }
 }
