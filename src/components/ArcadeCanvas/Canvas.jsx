@@ -33,11 +33,8 @@ const Canvas = () => {
     reactPng.src = reactImg;
     // Canvas
     let ctx = canvasRef.current.getContext("2d"),
-      canvasWidth = (canvasRef.current.width = 530),
-      canvasHeight = (canvasRef.current.height = 400),
-      // Text color, font, background color
-      // textColor = ["black"];
-
+      canvasWidth = (canvasRef.current.width = 480),
+      canvasHeight = (canvasRef.current.height = 367),
       fillText = [
         htmlPng,
         pugPng,
@@ -48,7 +45,6 @@ const Canvas = () => {
         jsPng,
         reactPng,
       ],
-      textFont = " bold 50px yahei",
       backgroundColor = "rgb(255,255,255,0)",
       // Size of Background Rectangle
       backgroundWidth = 150,
@@ -66,8 +62,8 @@ const Canvas = () => {
       // Number of collisions, used to calculate background and text color
       count = 0;
 
-    html();
-    function html() {
+    draw();
+    function draw() {
       // Moving direction
       switch (direction) {
         // Lower right
@@ -117,29 +113,23 @@ const Canvas = () => {
         direction = direction.replace("t", "b");
         count += 1;
       }
-      // Text
-      ctx.font = textFont;
-      // ctx.fillStyle = textColor;
-
+      // Draw
       ctx.drawImage(
         fillText[count % 8],
         positionX,
         positionY + backgroundHeight - fixHeight
       );
-      // ctx.fillText(
-      //   fillText[count % 8],
-      //   positionX,
-      //   positionY + backgroundHeight - fixHeight
-      // );
       // Background color
       ctx.fillStyle = backgroundColor;
       // Start animation
-      window.requestAnimationFrame(html);
+      window.requestAnimationFrame(draw);
     }
   };
+
   React.useEffect(() => {
     canvas();
   }, []);
+  
   return <canvas className="canvas" ref={canvasRef}></canvas>;
 };
 

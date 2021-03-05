@@ -1,16 +1,12 @@
 import React from "react";
-import arcadeImg from "../../assets/img/arcade.png";
+import tvImg from "../../assets/img/tv.png";
 import Canvas from "./Canvas";
 
 const ArcadeCanvas = () => {
   return (
-    <div className="main__arcade">
-      <div className="main__arcade-box">
-        <img src={arcadeImg} alt="arcade" className="main__arcade-img" />
-      </div>
-      <div className="main__arcade-canvas">
-        <Canvas />
-      </div>
+    <div className="tv-canvas">
+      <Canvas />
+      <img src={tvImg} alt="arcade" className="tv-canvas__img" />
     </div>
   );
 };

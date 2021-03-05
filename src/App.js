@@ -4,7 +4,6 @@ import MainInfo from "./components/MainInfo";
 function App() {
   return (
     <div className="main">
-      <ArcadeCanvas />
       <MainInfo
         listItems={[
           {
@@ -19,6 +18,7 @@ function App() {
           },
         ]}
       />
+      <ArcadeCanvas />
     </div>
   );
 }
