@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.448f85dd.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.7d4c1210.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.7d4c1210.chunk.js.map",
-    "runtime-main.js": "/portfolio-react/static/js/runtime-main.ac9e3148.js",
-    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.ac9e3148.js.map",
-    "static/js/2.27ac3cef.chunk.js": "/portfolio-react/static/js/2.27ac3cef.chunk.js",
-    "static/js/2.27ac3cef.chunk.js.map": "/portfolio-react/static/js/2.27ac3cef.chunk.js.map",
-    "index.html": "/portfolio-react/index.html",
-    "static/css/main.448f85dd.chunk.css.map": "/portfolio-react/static/css/main.448f85dd.chunk.css.map",
-    "static/js/2.27ac3cef.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.27ac3cef.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/portfolio-react/static/media/ArcadeClassic.d3fe9fdd.woff",
-    "static/media/css.3bb5cb61.png": "/portfolio-react/static/media/css.3bb5cb61.png",
-    "static/media/html.8ae4aea8.png": "/portfolio-react/static/media/html.8ae4aea8.png",
-    "static/media/js.9609004d.png": "/portfolio-react/static/media/js.9609004d.png",
-    "static/media/pug.fbf00b7e.png": "/portfolio-react/static/media/pug.fbf00b7e.png",
-    "static/media/react.3ce2b71c.png": "/portfolio-react/static/media/react.3ce2b71c.png",
-    "static/media/tv.4276839e.png": "/portfolio-react/static/media/tv.4276839e.png"
+    "main.css": "/sychev/static/css/main.923e1953.chunk.css",
+    "main.js": "/sychev/static/js/main.41a81dba.chunk.js",
+    "main.js.map": "/sychev/static/js/main.41a81dba.chunk.js.map",
+    "runtime-main.js": "/sychev/static/js/runtime-main.2d02c19b.js",
+    "runtime-main.js.map": "/sychev/static/js/runtime-main.2d02c19b.js.map",
+    "static/js/2.931d37e0.chunk.js": "/sychev/static/js/2.931d37e0.chunk.js",
+    "static/js/2.931d37e0.chunk.js.map": "/sychev/static/js/2.931d37e0.chunk.js.map",
+    "index.html": "/sychev/index.html",
+    "static/css/main.923e1953.chunk.css.map": "/sychev/static/css/main.923e1953.chunk.css.map",
+    "static/js/2.931d37e0.chunk.js.LICENSE.txt": "/sychev/static/js/2.931d37e0.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/sychev/static/media/ArcadeClassic.eba182a4.svg",
+    "static/media/css.3bb5cb61.png": "/sychev/static/media/css.3bb5cb61.png",
+    "static/media/html.8ae4aea8.png": "/sychev/static/media/html.8ae4aea8.png",
+    "static/media/js.9609004d.png": "/sychev/static/media/js.9609004d.png",
+    "static/media/pug.fbf00b7e.png": "/sychev/static/media/pug.fbf00b7e.png",
+    "static/media/react.3ce2b71c.png": "/sychev/static/media/react.3ce2b71c.png",
+    "static/media/tv.4276839e.png": "/sychev/static/media/tv.4276839e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac9e3148.js",
-    "static/js/2.27ac3cef.chunk.js",
-    "static/css/main.448f85dd.chunk.css",
-    "static/js/main.7d4c1210.chunk.js"
+    "static/js/runtime-main.2d02c19b.js",
+    "static/js/2.931d37e0.chunk.js",
+    "static/css/main.923e1953.chunk.css",
+    "static/js/main.41a81dba.chunk.js"
   ]
 }
