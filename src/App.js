@@ -1,26 +1,28 @@
 import React from "react";
+import axios from "axios";
+import {MainInfo} from "./components/MainInfo";
+export const App= ()=> {
 
-import MainInfo from "./components/MainInfo";
-function App() {
+  const [resumePopup, setResume] = React.useState([]);
+  const [portfolioPopup, setPortfolioPopup] = React.useState([]);
+  const [listItems, setListItems] = React.useState([]);
+
+  React.useEffect(() => {
+    axios.get("./db.json").then((res) => {
+      setResume(res.data.resume);
+      setPortfolioPopup(res.data.portfolio);
+      setListItems(res.data.listItems)
+    });
+  }, []);
   return (
     <div className="main">
       <MainInfo
-        listItems={[
-          {
-            text: "GitHub",
-            link: "https://github.com/BenNiks1",
-            target: "_blank",
-          },
-          {
-            text: "Write an email",
-            link: "mailto:benxmr@gmail.com",
-            target: "",
-          },
-        ]}
+        resumePopup={resumePopup}
+        portfolioPopup={portfolioPopup}
+        listItems={listItems}
       />
   
     </div>
   );
 }
 
-export default App;

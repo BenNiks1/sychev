@@ -1,6 +1,6 @@
 import React from "react";
 
-const PortfolioPopup = ({ subnav }) => {
+export const PortfolioPopup = ({ subnav }) => {
   const [visiblePopup, setVisiblePopup] = React.useState(false);
   const portfolioSubnav = React.useRef();
 
@@ -36,16 +36,18 @@ const PortfolioPopup = ({ subnav }) => {
           </svg>
           {visiblePopup && (
             <ul className="subnav__list">
-              {subnav.popup.map((item) => (
-                <li className="subnav__list-item">
-                  <a href={item.link} target={item.target}>
-                    {item.text}
-                  </a>
-                  <a href={item.srcLink} target={item.target}>
-                    {item.extension}
-                  </a>
-                </li>
-              ))}
+              {subnav.popup.map(
+                ({ link, target, text, srcLink, extension }) => (
+                  <li className="subnav__list-item">
+                    <a href={link} target={target}>
+                      {text}
+                    </a>
+                    <a href={srcLink} target={target}>
+                      {extension}
+                    </a>
+                  </li>
+                )
+              )}
             </ul>
           )}
         </div>
@@ -53,5 +55,3 @@ const PortfolioPopup = ({ subnav }) => {
     </li>
   );
 };
-
-export default PortfolioPopup;

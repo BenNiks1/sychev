@@ -1,6 +1,6 @@
 import React from "react";
 
-const ResumePopup = ({ subnav }) => {
+export const ResumePopup = ({ subnav }) => {
   const [visiblePopup, setVisiblePopup] = React.useState(false);
   const resumeSubnav = React.useRef();
 
@@ -35,12 +35,12 @@ const ResumePopup = ({ subnav }) => {
           </svg>
           {visiblePopup && (
             <ul className="subnav__list">
-              {subnav.popup.map((item) => (
+              {subnav.popup.map(({ link, download, text, extension }) => (
                 <li className="subnav__list-item">
-                  <a href={item.link} download={item.download}>
-                    {item.text}
+                  <a href={link} download={download}>
+                    {text}
                   </a>
-                  <p>{item.extension}</p>
+                  <p>{extension}</p>
                 </li>
               ))}
             </ul>
@@ -50,5 +50,3 @@ const ResumePopup = ({ subnav }) => {
     </li>
   );
 };
-
-export default ResumePopup;

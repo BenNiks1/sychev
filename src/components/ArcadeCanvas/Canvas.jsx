@@ -10,7 +10,7 @@ import {
   reactImg,
 } from "./images";
 
-const Canvas = () => {
+export const Canvas = () => {
   const canvasRef = React.useRef(null);
 
   const canvas = () => {
@@ -133,4 +133,4 @@ const Canvas = () => {
   return <canvas className="canvas" ref={canvasRef}></canvas>;
 };
 
-export default Canvas;
+
