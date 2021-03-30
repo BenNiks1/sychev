@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sychev/static/css/main.923e1953.chunk.css",
-    "main.js": "/sychev/static/js/main.41a81dba.chunk.js",
-    "main.js.map": "/sychev/static/js/main.41a81dba.chunk.js.map",
+    "main.css": "/sychev/static/css/main.a3d6e846.chunk.css",
+    "main.js": "/sychev/static/js/main.91582cc1.chunk.js",
+    "main.js.map": "/sychev/static/js/main.91582cc1.chunk.js.map",
     "runtime-main.js": "/sychev/static/js/runtime-main.2d02c19b.js",
     "runtime-main.js.map": "/sychev/static/js/runtime-main.2d02c19b.js.map",
     "static/js/2.931d37e0.chunk.js": "/sychev/static/js/2.931d37e0.chunk.js",
     "static/js/2.931d37e0.chunk.js.map": "/sychev/static/js/2.931d37e0.chunk.js.map",
     "index.html": "/sychev/index.html",
-    "static/css/main.923e1953.chunk.css.map": "/sychev/static/css/main.923e1953.chunk.css.map",
+    "static/css/main.a3d6e846.chunk.css.map": "/sychev/static/css/main.a3d6e846.chunk.css.map",
     "static/js/2.931d37e0.chunk.js.LICENSE.txt": "/sychev/static/js/2.931d37e0.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/sychev/static/media/ArcadeClassic.eba182a4.svg",
+    "static/media/index.scss": "/sychev/static/media/ArcadeClassic.d3fe9fdd.woff",
     "static/media/css.3bb5cb61.png": "/sychev/static/media/css.3bb5cb61.png",
     "static/media/html.8ae4aea8.png": "/sychev/static/media/html.8ae4aea8.png",
     "static/media/js.9609004d.png": "/sychev/static/media/js.9609004d.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.2d02c19b.js",
     "static/js/2.931d37e0.chunk.js",
-    "static/css/main.923e1953.chunk.css",
-    "static/js/main.41a81dba.chunk.js"
+    "static/css/main.a3d6e846.chunk.css",
+    "static/js/main.91582cc1.chunk.js"
   ]
 }
