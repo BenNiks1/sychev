@@ -10,7 +10,6 @@ export const App: FC = () => {
     return data
   }
   const { data } = useQuery('main', getData)
-  console.log(data?.listItems)
   return (
     <div className='main'>
       <header className='header container'>
