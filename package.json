@@ -1,5 +1,5 @@
-{ 
-  "homepage":"https://benniks1.github.io/sychev/",
+{
+  "homepage": "https://benniks1.github.io/sychev/",
   "name": "sychev_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,12 +7,18 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "axios": "^0.21.1",
-    "gh-pages": "^3.1.0",
-    "node-sass": "^5.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.24.0",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.33.7",
     "react-scripts": "4.0.3",
+    "sass": "^1.43.5",
+    "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

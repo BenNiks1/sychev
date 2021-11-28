@@ -1,0 +1,8 @@
+export { default as htmlImg } from './html.png'
+export { default as pugImg } from './pug.png'
+export { default as bemImg } from './bem.png'
+export { default as cssImg } from './css.png'
+export { default as sassImg } from './sass.png'
+export { default as gulpImg } from './gulp.png'
+export { default as jsImg } from './js.png'
+export { default as reactImg } from './react.png'
