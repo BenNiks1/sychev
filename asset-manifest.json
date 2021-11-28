@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/sychev/static/css/main.a3d6e846.chunk.css",
-    "main.js": "/sychev/static/js/main.91582cc1.chunk.js",
-    "main.js.map": "/sychev/static/js/main.91582cc1.chunk.js.map",
-    "runtime-main.js": "/sychev/static/js/runtime-main.2d02c19b.js",
-    "runtime-main.js.map": "/sychev/static/js/runtime-main.2d02c19b.js.map",
-    "static/js/2.931d37e0.chunk.js": "/sychev/static/js/2.931d37e0.chunk.js",
-    "static/js/2.931d37e0.chunk.js.map": "/sychev/static/js/2.931d37e0.chunk.js.map",
+    "main.css": "/sychev/static/css/main.81ca548d.chunk.css",
+    "main.js": "/sychev/static/js/main.9ee8f246.chunk.js",
+    "main.js.map": "/sychev/static/js/main.9ee8f246.chunk.js.map",
+    "runtime-main.js": "/sychev/static/js/runtime-main.008d9fc2.js",
+    "runtime-main.js.map": "/sychev/static/js/runtime-main.008d9fc2.js.map",
+    "static/js/2.5aab8e0b.chunk.js": "/sychev/static/js/2.5aab8e0b.chunk.js",
+    "static/js/2.5aab8e0b.chunk.js.map": "/sychev/static/js/2.5aab8e0b.chunk.js.map",
     "index.html": "/sychev/index.html",
-    "static/css/main.a3d6e846.chunk.css.map": "/sychev/static/css/main.a3d6e846.chunk.css.map",
-    "static/js/2.931d37e0.chunk.js.LICENSE.txt": "/sychev/static/js/2.931d37e0.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/sychev/static/media/ArcadeClassic.d3fe9fdd.woff",
+    "static/css/main.81ca548d.chunk.css.map": "/sychev/static/css/main.81ca548d.chunk.css.map",
+    "static/js/2.5aab8e0b.chunk.js.LICENSE.txt": "/sychev/static/js/2.5aab8e0b.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/sychev/static/media/ArcadeClassic.eba182a4.svg",
+    "static/media/arrow-top.cbda994b.svg": "/sychev/static/media/arrow-top.cbda994b.svg",
     "static/media/css.3bb5cb61.png": "/sychev/static/media/css.3bb5cb61.png",
     "static/media/html.8ae4aea8.png": "/sychev/static/media/html.8ae4aea8.png",
     "static/media/js.9609004d.png": "/sychev/static/media/js.9609004d.png",
@@ -19,9 +20,9 @@
     "static/media/tv.4276839e.png": "/sychev/static/media/tv.4276839e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d02c19b.js",
-    "static/js/2.931d37e0.chunk.js",
-    "static/css/main.a3d6e846.chunk.css",
-    "static/js/main.91582cc1.chunk.js"
+    "static/js/runtime-main.008d9fc2.js",
+    "static/js/2.5aab8e0b.chunk.js",
+    "static/css/main.81ca548d.chunk.css",
+    "static/js/main.9ee8f246.chunk.js"
   ]
 }
